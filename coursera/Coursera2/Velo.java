@@ -39,13 +39,10 @@ public class Velo {
 //******Début classification de l'heure de Début**********************
 		
 		if(horaireDebut < 7) {
-			System.out.println("debut est plus petit que 7");
 			groupeA="a";
 			}else if (horaireDebut < 17) {
-			System.out.println("debut est plus petit que 17");
 			groupeB="b";
 		}else if (horaireDebut > 17) {
-			System.out.println("debut est plus grand que 17");
 			groupeC="c";
 		}
 			
@@ -54,17 +51,14 @@ public class Velo {
 //******Début classification de l'heure de Fin*****************
 		
 		if(horaireFin < 7) {
-			System.out.println("fin est plus petit que 7");
 			groupe1="a";
 			}else if (horaireFin < 17) {
-			System.out.println("fin est plus petit que 17");
 				if(groupeA == "a") {
 					groupe2="a";
 				}else if(groupeB == "b") {
 					groupe2="b";
 				}
-		}else if (horaireFin > 17) {
-			System.out.println("fin est plus grand que 17");
+		}else if (horaireFin >= 17) {
 			if(groupeA == "a") {
 				groupe3="a";
 			}else if(groupeB == "b") {
@@ -73,9 +67,6 @@ public class Velo {
 					groupe3="c";
 				}
 			}
-			
-//******Fin classification de l'heure de Fin*****************
-
 			
 //**********Début calcule horaire groupeA************************
 			
