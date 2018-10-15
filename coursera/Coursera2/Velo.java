@@ -42,7 +42,7 @@ public class Velo {
 			groupeA="a";
 			}else if (horaireDebut < 17) {
 			groupeB="b";
-		}else if (horaireDebut > 17) {
+		}else if (horaireDebut >= 17) {
 			groupeC="c";
 		}
 			
