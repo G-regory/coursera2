@@ -1,8 +1,6 @@
-package test;
-
 import java.util.Scanner;
 
-public class Champignon {
+public class Champi {
 
 	public static void main(String[] args) {
 		Scanner clavier = new Scanner(System.in);
@@ -42,7 +40,7 @@ public class Champignon {
 					System.out.print("la girolle");
 				} else {
 					System.out.print("==> Le champignon auquel vous pensez est ");
-					System.out.print("le cÃ¨pe de Bordeaux");
+					System.out.print("le cèpe de Bordeaux");
 				}
 			} else if (foret != true) {
 			System.out.print("Est-ce que votre champignon a un chapeau convexe (true : oui, false : non) ? ");
